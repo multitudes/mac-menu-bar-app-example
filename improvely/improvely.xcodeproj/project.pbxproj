@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		457F456A2A86522C0078F632 /* improvelyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F45692A86522C0078F632 /* improvelyApp.swift */; };
+		457F456C2A86522C0078F632 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F456B2A86522C0078F632 /* ContentView.swift */; };
+		457F456E2A86522F0078F632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457F456D2A86522F0078F632 /* Assets.xcassets */; };
+		457F45712A86522F0078F632 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457F45702A86522F0078F632 /* Preview Assets.xcassets */; };
+		457F457C2A86522F0078F632 /* improvelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F457B2A86522F0078F632 /* improvelyTests.swift */; };
+		457F45862A86522F0078F632 /* improvelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F45852A86522F0078F632 /* improvelyUITests.swift */; };
+		457F45882A86522F0078F632 /* improvelyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F45872A86522F0078F632 /* improvelyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		457F45782A86522F0078F632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457F455E2A86522C0078F632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457F45652A86522C0078F632;
+			remoteInfo = improvely;
+		};
+		457F45822A86522F0078F632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457F455E2A86522C0078F632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457F45652A86522C0078F632;
+			remoteInfo = improvely;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		457F45662A86522C0078F632 /* improvely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = improvely.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		457F45692A86522C0078F632 /* improvelyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = improvelyApp.swift; sourceTree = "<group>"; };
+		457F456B2A86522C0078F632 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		457F456D2A86522F0078F632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		457F45702A86522F0078F632 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		457F45722A86522F0078F632 /* improvely.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = improvely.entitlements; sourceTree = "<group>"; };
+		457F45772A86522F0078F632 /* improvelyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = improvelyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		457F457B2A86522F0078F632 /* improvelyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = improvelyTests.swift; sourceTree = "<group>"; };
+		457F45812A86522F0078F632 /* improvelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = improvelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		457F45852A86522F0078F632 /* improvelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = improvelyUITests.swift; sourceTree = "<group>"; };
+		457F45872A86522F0078F632 /* improvelyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = improvelyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		457F45632A86522C0078F632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457F45742A86522F0078F632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457F457E2A86522F0078F632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		457F455D2A86522C0078F632 = {
+			isa = PBXGroup;
+			children = (
+				457F45682A86522C0078F632 /* improvely */,
+				457F457A2A86522F0078F632 /* improvelyTests */,
+				457F45842A86522F0078F632 /* improvelyUITests */,
+				457F45672A86522C0078F632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		457F45672A86522C0078F632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				457F45662A86522C0078F632 /* improvely.app */,
+				457F45772A86522F0078F632 /* improvelyTests.xctest */,
+				457F45812A86522F0078F632 /* improvelyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		457F45682A86522C0078F632 /* improvely */ = {
+			isa = PBXGroup;
+			children = (
+				457F45692A86522C0078F632 /* improvelyApp.swift */,
+				457F456B2A86522C0078F632 /* ContentView.swift */,
+				457F456D2A86522F0078F632 /* Assets.xcassets */,
+				457F45722A86522F0078F632 /* improvely.entitlements */,
+				457F456F2A86522F0078F632 /* Preview Content */,
+			);
+			path = improvely;
+			sourceTree = "<group>";
+		};
+		457F456F2A86522F0078F632 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				457F45702A86522F0078F632 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		457F457A2A86522F0078F632 /* improvelyTests */ = {
+			isa = PBXGroup;
+			children = (
+				457F457B2A86522F0078F632 /* improvelyTests.swift */,
+			);
+			path = improvelyTests;
+			sourceTree = "<group>";
+		};
+		457F45842A86522F0078F632 /* improvelyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				457F45852A86522F0078F632 /* improvelyUITests.swift */,
+				457F45872A86522F0078F632 /* improvelyUITestsLaunchTests.swift */,
+			);
+			path = improvelyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		457F45652A86522C0078F632 /* improvely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457F458B2A86522F0078F632 /* Build configuration list for PBXNativeTarget "improvely" */;
+			buildPhases = (
+				457F45622A86522C0078F632 /* Sources */,
+				457F45632A86522C0078F632 /* Frameworks */,
+				457F45642A86522C0078F632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = improvely;
+			productName = improvely;
+			productReference = 457F45662A86522C0078F632 /* improvely.app */;
+			productType = "com.apple.product-type.application";
+		};
+		457F45762A86522F0078F632 /* improvelyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457F458E2A86522F0078F632 /* Build configuration list for PBXNativeTarget "improvelyTests" */;
+			buildPhases = (
+				457F45732A86522F0078F632 /* Sources */,
+				457F45742A86522F0078F632 /* Frameworks */,
+				457F45752A86522F0078F632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457F45792A86522F0078F632 /* PBXTargetDependency */,
+			);
+			name = improvelyTests;
+			productName = improvelyTests;
+			productReference = 457F45772A86522F0078F632 /* improvelyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		457F45802A86522F0078F632 /* improvelyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457F45912A86522F0078F632 /* Build configuration list for PBXNativeTarget "improvelyUITests" */;
+			buildPhases = (
+				457F457D2A86522F0078F632 /* Sources */,
+				457F457E2A86522F0078F632 /* Frameworks */,
+				457F457F2A86522F0078F632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457F45832A86522F0078F632 /* PBXTargetDependency */,
+			);
+			name = improvelyUITests;
+			productName = improvelyUITests;
+			productReference = 457F45812A86522F0078F632 /* improvelyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		457F455E2A86522C0078F632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					457F45652A86522C0078F632 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					457F45762A86522F0078F632 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 457F45652A86522C0078F632;
+					};
+					457F45802A86522F0078F632 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 457F45652A86522C0078F632;
+					};
+				};
+			};
+			buildConfigurationList = 457F45612A86522C0078F632 /* Build configuration list for PBXProject "improvely" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 457F455D2A86522C0078F632;
+			productRefGroup = 457F45672A86522C0078F632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				457F45652A86522C0078F632 /* improvely */,
+				457F45762A86522F0078F632 /* improvelyTests */,
+				457F45802A86522F0078F632 /* improvelyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		457F45642A86522C0078F632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457F45712A86522F0078F632 /* Preview Assets.xcassets in Resources */,
+				457F456E2A86522F0078F632 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457F45752A86522F0078F632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457F457F2A86522F0078F632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		457F45622A86522C0078F632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457F456C2A86522C0078F632 /* ContentView.swift in Sources */,
+				457F456A2A86522C0078F632 /* improvelyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457F45732A86522F0078F632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457F457C2A86522F0078F632 /* improvelyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457F457D2A86522F0078F632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457F45882A86522F0078F632 /* improvelyUITestsLaunchTests.swift in Sources */,
+				457F45862A86522F0078F632 /* improvelyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		457F45792A86522F0078F632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457F45652A86522C0078F632 /* improvely */;
+			targetProxy = 457F45782A86522F0078F632 /* PBXContainerItemProxy */;
+		};
+		457F45832A86522F0078F632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457F45652A86522C0078F632 /* improvely */;
+			targetProxy = 457F45822A86522F0078F632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		457F45892A86522F0078F632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		457F458A2A86522F0078F632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		457F458C2A86522F0078F632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = improvely/improvely.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"improvely/Preview Content\"";
+				DEVELOPMENT_TEAM = GGXD5E6AF8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = laurentb.com.improvely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		457F458D2A86522F0078F632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = improvely/improvely.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"improvely/Preview Content\"";
+				DEVELOPMENT_TEAM = GGXD5E6AF8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = laurentb.com.improvely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		457F458F2A86522F0078F632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GGXD5E6AF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = laurentb.com.improvelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/improvely.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/improvely";
+			};
+			name = Debug;
+		};
+		457F45902A86522F0078F632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GGXD5E6AF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = laurentb.com.improvelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/improvely.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/improvely";
+			};
+			name = Release;
+		};
+		457F45922A86522F0078F632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GGXD5E6AF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = laurentb.com.improvelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = improvely;
+			};
+			name = Debug;
+		};
+		457F45932A86522F0078F632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GGXD5E6AF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = laurentb.com.improvelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = improvely;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		457F45612A86522C0078F632 /* Build configuration list for PBXProject "improvely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457F45892A86522F0078F632 /* Debug */,
+				457F458A2A86522F0078F632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457F458B2A86522F0078F632 /* Build configuration list for PBXNativeTarget "improvely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457F458C2A86522F0078F632 /* Debug */,
+				457F458D2A86522F0078F632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457F458E2A86522F0078F632 /* Build configuration list for PBXNativeTarget "improvelyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457F458F2A86522F0078F632 /* Debug */,
+				457F45902A86522F0078F632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457F45912A86522F0078F632 /* Build configuration list for PBXNativeTarget "improvelyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457F45922A86522F0078F632 /* Debug */,
+				457F45932A86522F0078F632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 457F455E2A86522C0078F632 /* Project object */;
+}
