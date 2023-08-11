@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct improvelyApp: App {
     @AppStorage("showMenuBarExtra") private var showMenuBarExtra = true
-    @State private var symbol: String = "figure.run.square.stack"
+    @State private var symbol: String = "mountain.2.fill"
     let columns = [GridItem(.flexible()), GridItem(.flexible())]
     
     var body: some Scene {
